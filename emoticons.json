@@ -10,6 +10,14 @@
   {
     "name": "nervous",
     "aliases": ["embarrassed", "troubled", "shy", "sweat drop"],
-    "emoticon": "(^^ゞ"
+    "emoticon": [
+      "(^^ゞ",
+      "(^_^;)",
+      "(-_-;)",
+      "(・.・;)",
+      "(・_・;)",
+      "(・・;)",
+      "(・・;)"
+    ]
   }
 ]
