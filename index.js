@@ -8,6 +8,7 @@ export default class ExpandedEmoticons extends Plugin {
     Emoticons.forEach((emoticon) => {
       Commands.registerCommand({
         command: emoticon.name,
+        aliases: emoticon.aliases || [],
         description: `Appends ${emoticon.emoticon} to your message.`,
         options: [
           {
@@ -17,7 +18,9 @@ export default class ExpandedEmoticons extends Plugin {
         executor: (args) => {
           return {
             send: true,
-            result: `${args[0] ? `${args[0]} ` : ""}${emoticon.emoticon}`,
+            result: `${args[0] ? `${args.slice(0).join(" ")} ` : ""}${
+              emoticon.emoticon
+            }`,
           };
         },
       });
