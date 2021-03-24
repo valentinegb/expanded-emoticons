@@ -118,5 +118,208 @@
   {
     "name": "shame",
     "emoticon": ["(ー_ー)!!", "(-.-)", "(-_-)", "(一一)", "(；一_一)"]
+  },
+  {
+    "name": "tired",
+    "emoticon": "(=_=)"
+  },
+  {
+    "name": "cat",
+    "emoticon": ["(=^・^=)", "(=^・・^=)", "=^_^="]
+  },
+  {
+    "name": "lookingdown",
+    "emoticon": ["(..)", "(._.)"]
+  },
+  {
+    "name": "giggling",
+    "emoticon": "^m^"
+  },
+  {
+    "name": "confusion",
+    "emoticon": ["(・・?", "(?_?)"]
+  },
+  {
+    "name": "facepalm",
+    "emoticon": "(－‸ლ)"
+  },
+  {
+    "name": "laugh",
+    "emoticon": [
+      ">^_^<",
+      "<^!^>",
+      "^/^",
+      "(*^_^*)",
+      "§^.^§",
+      "(^<^)",
+      "(^.^)",
+      "(^ム^)",
+      "(^·^)",
+      "(^.^)",
+      "(^_^.)",
+      "(^_^)",
+      "(^^)",
+      "(^J^)",
+      "(*^.^*)",
+      "^_^",
+      "(#^.^#)",
+      "(^—^)"
+    ]
+  },
+  {
+    "name": "waving",
+    "emoticon": [
+      "(^^)/~~~",
+      "(^_^)/~",
+      "(;_;)/~~~",
+      "(^.^)/~~~",
+      "(-_-)/~~~",
+      "($··)/~~~",
+      "(@^^)/~~~",
+      "(T_T)/~~~",
+      "(ToT)/~~~"
+    ]
+  },
+  {
+    "name": "alien",
+    "emoticon": "(V)o￥o(V)"
+  },
+  {
+    "name": "excited",
+    "emoticon": [
+      "＼(~o~)／",
+      "＼(^o^)／",
+      "＼(-o-)／",
+      "ヽ(^。^)ノ",
+      "ヽ(^o^)丿",
+      "(*^0^*)"
+    ]
+  },
+  {
+    "name": "amazed",
+    "emoticon": [
+      "(*_*)",
+      "(*_*;",
+      "(+_+)",
+      "(@_@)",
+      "(@_@。",
+      "(＠_＠;)",
+      "＼(◎o◎)／!"
+    ]
+  },
+  {
+    "name": "cheerful",
+    "aliases": ["laughing"],
+    "emoticon": [
+      "(*^^)v",
+      "(^^)",
+      "v(^_^)v",
+      "(’-’*)",
+      "(＾ｖ＾)",
+      "(＾▽＾)",
+      "(・∀・)",
+      "(´∀`)",
+      "(⌒▽⌒)"
+    ]
+  },
+  {
+    "name": "monicle",
+    "emoticon": "(p_-)"
+  },
+  {
+    "name": "headphones",
+    "aliases": ["listening to music"],
+    "emoticon": "((d[-_-]b))"
+  },
+  {
+    "name": "worried",
+    "emoticon": [
+      "(-\"-)",
+      "(ーー゛)",
+      "(^_^メ)",
+      "(-_-メ)",
+      "(~_~メ)",
+      "(－－〆)",
+      "(・へ・)",
+      "(｀´)",
+      "<`～´>",
+      "<`ヘ´>",
+      "(ーー;)"
+    ]
+  },
+  {
+    "name": "glasses",
+    "aliases": ["eyeglasses"],
+    "emoticon": "(^0_0^)"
+  },
+  {
+    "name": "note",
+    "aliases": ["jotting note"],
+    "emoticon": ["( ..)φ", "φ(..)"]
+  },
+  {
+    "name": "happy",
+    "emoticon": [
+      "(●＾o＾●)",
+      "(＾ｖ＾)",
+      "(＾ｕ＾)",
+      "(＾◇＾)",
+      "( ^)o(^ )",
+      "(^O^)",
+      "(^o^)",
+      "(^○^)",
+      ")^o^(",
+      "(*^▽^*)",
+      "(✿◠‿◠)"
+    ]
+  },
+  {
+    "name": "smirk",
+    "emoticon": "(￣ー￣)"
+  },
+  {
+    "name": "surprised",
+    "emoticon": [
+      "(￣□￣;)",
+      "°o°",
+      "°O°",
+      ":O",
+      "o_O",
+      "o_0",
+      "o.O",
+      "(o.o)",
+      "oO"
+    ]
+  },
+  {
+    "name": "infatuation",
+    "emoticon": ["(*´▽｀*)", "(*°∀°)=3"]
+  },
+  {
+    "name": "shocked",
+    "aliases": ["surprised"],
+    "emoticon": ["( ﾟ Дﾟ)", "(°◇°)"]
+  },
+  {
+    "name": "dissatisfied",
+    "emoticon": "(*￣m￣)"
+  },
+  {
+    "name": "mellow",
+    "emoticon": "ヽ(´ー｀)┌"
+  },
+  {
+    "name": "snubbed",
+    "aliases": ["deflated"],
+    "emoticon": ["(´･ω･`)", "(‘A`)"]
+  },
+  {
+    "name": "kiss",
+    "aliases": ["blowing a kiss"],
+    "emoticon": "(*^3^)/~☆"
+  },
+  {
+    "name": "studying",
+    "emoticon": ".....φ(・∀・＊)"
   }
 ]
