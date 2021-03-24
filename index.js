@@ -1,23 +1,23 @@
 import { Plugin } from "@vizality/entities";
 import { Commands } from "@vizality/api";
 
-const emoticons = [
-  {
-    name: "troubled",
-    emoticon: "(>_<)",
-  },
-];
+import Emoticons from "./emoticons.json";
 
 export default class ExpandedEmoticons extends Plugin {
   start() {
-    emoticons.forEach((emoticon) => {
+    Emoticons.forEach((emoticon) => {
       Commands.registerCommand({
         command: emoticon.name,
-        description: emoticon.emoticon,
-        executor: () => {
+        description: `Appends ${emoticon.emoticon} to your message.`,
+        options: [
+          {
+            name: "message",
+          },
+        ],
+        executor: (args) => {
           return {
             send: true,
-            result: emoticon.emoticon,
+            result: `${args[0] ? `${args[0]} ` : ""}${emoticon.emoticon}`,
           };
         },
       });
@@ -25,7 +25,7 @@ export default class ExpandedEmoticons extends Plugin {
   }
 
   stop() {
-    emoticons.forEach((emoticon) => {
+    Emoticons.forEach((emoticon) => {
       Commands.unregisterCommand(emoticon.name);
     });
   }
