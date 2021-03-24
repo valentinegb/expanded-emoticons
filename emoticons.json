@@ -1,5 +1,9 @@
 [
   {
+    "name": "lenny",
+    "emoticon": "( ͡° ͜ʖ ͡°)"
+  },
+  {
     "name": "troubled",
     "emoticon": "(>_<)"
   },
@@ -68,9 +72,5 @@
       "(·ω·)",
       "^ω^"
     ]
-  },
-  {
-    "name": "lenny",
-    "emoticon": "( ͡° ͜ʖ ͡°)"
   }
 ]
